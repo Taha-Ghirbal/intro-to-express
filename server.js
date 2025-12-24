@@ -7,13 +7,13 @@ app.listen(port, () => {
 });
 
 app.get('/homepage', (req, res) => {
-  res.sendFile(__dirname + '/html/homepage.html');
+  res.sendFile(__dirname + '/views/homepage.html');
 })
 
 app.get('/about', (req, res) => {
-  res.sendFile(__dirname + '/html/about.html');
+  res.sendFile(__dirname + '/views/about.html');
 })
 
-app.get('//test', (req, res) => {
-  res.send(<p>Success!</p>);
-}
+app.get('/test', (req, res) => {
+  res.send('<p>Success!</p>');
+})
