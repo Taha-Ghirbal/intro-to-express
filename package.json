@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Taha-Ghirbal/intro-to-express/issues"
   },
-  "homepage": "https://github.com/Taha-Ghirbal/intro-to-express#readme"
+  "homepage": "https://github.com/Taha-Ghirbal/intro-to-express#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
 }
